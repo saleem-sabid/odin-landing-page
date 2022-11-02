@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+header {
+
+    background-color: #1F2937;
+    color: #fff;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15rem;
+    margin: 0;
+
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 600;
+    flex-shrink: 0;
+}
+
+.nav-items {
+    flex-shrink: 0;
+    display: flex;
+    gap: 15px;
+}
+
+/* 
+main {
+    margin-top: 0;
+} */
+
+.hero-content {
+    background-color: #1F2937;
+    /* margin-top: 0; */
+    padding: 55px 15rem;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 115px;
+}
+
+
+.hero-left {
+    width: 50vw;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+
+}
+
+.hero-right {
+    flex: 1;
+    margin-left: 50px;
+    height: 220px;
+    min-width: 100px;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#main-text {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+    /* margin: 10px 0; */
+    margin: 0;
+
+}
+
+#sec-text {
+    color: #EFE7EB;
+    /* margin: 10px 0; */
+    margin: 0;
+}
+
+.signup-button {
+    background-color: #3882F6;
+    max-width: 75px;
+    text-align: center;
+    padding: 3px 5px;
+    border-radius: 5px;
+    color: #fff;
+}
