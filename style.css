@@ -51,6 +51,7 @@ main {
     justify-content: space-between;
     align-items: center;
     padding-bottom: 115px;
+    flex-wrap: wrap;
 }
 
 
@@ -68,7 +69,7 @@ main {
     flex: 1;
     margin-left: 50px;
     height: 220px;
-    min-width: 100px;
+    min-width: 200px;
     background-color: #828488;
     color: #F9FAF8;
     display: flex;
@@ -122,13 +123,13 @@ main {
     padding: 35px 40px;
     display: flex;
     gap: 50px;
+    flex-wrap: wrap;
 }
 
 .item-container {
     width: 140px;
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
     align-items: center;
 }
 
@@ -148,7 +149,7 @@ main {
 
 .quote-container {
     padding: 40px 18rem;
-    background-color: #EFE7EB;
+    background-color: #E5E7EB;
 }
 
 #quote-text {
@@ -172,6 +173,7 @@ main {
     border-radius: 5px;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     color: #EFE7EB;
 }
 
@@ -187,9 +189,9 @@ main {
 
 footer {
     background-color: #1F2937;
-    height: 30px;
+    /* height: 30px; */
     text-align: center;
-    padding: 5px;
+    padding: 10px;
     color: #EFE7EB;
 
 }
